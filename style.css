@@ -1,217 +1,131 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 3px solid #CED1D4;
+    border: 5px solid #D8DEE4;
+    display: flex;
+    flex-direction: column;
 }
 .section1{
-    background-color: #3DBEFF;
-    display: block;
+    background-color: #3CBEFE;
+    padding-top: 20px;
 }
-.meno{
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
-}
-.meno_element{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-    font-size: 23px;
-}
-.sunnysid{
-    color: #fff;
-    font-size: 25px;
-}
-.old_sunn{
-    padding-top: 17px;
-    padding-left: 70px;
-    padding-right: 35%;
-}
-.inner_meno{
-    padding-left: 40px;
-    color: #fff;
-}
-.cantact{
-    border: 1px solid #6ECEFF;
-    border-radius: 50px;
-    background-color: #fff;
-    color: black;
+.h1_for_sun{
     display: inline;
-    padding: 15px 20px;
-    font-size: 25px;
-}
-.old_can{
-    padding-left: 40px;
-    padding-top: 17px;
-}
-.for_h1{
     color: #fff;
-    font-size: 50px;
-    padding-left: 30%;
-    display: inline;
+    padding-left: 7px;
 }
-.old_h1{
-    margin-top: 60px;
+.bibi-list{
+    color: #fff;
+    padding-left: 50%;
 }
-.oreng_img{
-    display: inline-flex;
-    flex-direction: column;
-    position: relative;
-    margin-left:100px;
-    margin-top: 0px;
-}
-.flash{
-    padding-left: 300px;
-    z-index: 15;
-    height: 150px;
-    width: 35px;
-    position: absolute;
-    padding-top: 310px;
-    padding-left: 530px;
-}
-.oreng{
-    width: 900px;
-    height: 500px;
-    display: inline;
-}
-.old_oreng{
-   padding-left: 100px;
-   display: inline;
-  
-}
-.ELsection1{
-    display: flex;
-    flex-direction: row;
-}
-.inner_text1{
-    padding-top: 120px;
-    padding-right: 80px;
-    padding-left: 100px;
-    width: 500px;
-}
-.inner_text2{
-    width: 790px;
-    padding-top: 120px;
-    padding-left: 100px;
-}
-.for_img{
-    width: 680px;
-    height: 560px;
-}
-.for_img2{
-    width: 680px;
-    height: 560px;
-}
-.for_img3{
-    width: 680px;
-    height: 560px;
-    text-align: left;
-}
-.for_img4{
-    width: 647px;
-    height: 560px;
-    text-align: right;
-}
-.for_h2{
-    color: #2A3442;
-}
-.text{
-    color: #CED1D4;
-}
-.for_more{
-    color: #2A3442;
-}
-.h1_for_celent{
-    padding-top: 70px;
+.h1_for_weare{
+    color: #fff;
     text-align: center;
-    color: #CED1D4;
-}
-.tree_Element{
-    display: flex;
-    flex-direction: row;
-    padding-top: 100px;
-}
-.img_for_treeEL{
-    margin-left: 200px;
-    border-radius: 360px;
-}
-.one_El{
-    display: flex;
-    flex-direction: column;
-}
-.two_El{
-    display: flex;
-    flex-direction: column;
-}
-.tree_El{
-    display: flex;
-    flex-direction: column;
-}
-.text_for_photos{
+    font-size: 50px;
     padding-top: 30px;
-    padding-left: 100px;
 }
-.short_text{
-    margin-top: 20px;
-    padding-left: 180px;
+.potos_for_oreng{
+    width: 100%;
 }
-.text_for_photos{
-    color: #CED1D4;
+.photos_for_egg{
+    width: 100%;
 }
-.inner_shorttext{
-    color: #2A3442;
+.h1_for_transform{
+    text-align: center;
+    color: #252f3e;
 }
-.inner_shorttext2{
-    color: #CFD0D2;
+.h3_for_wearw{
+    text-align: center;
+    color: #a9a8ab;
 }
-.short_text2{
-    margin-top: 20px;
-    padding-left: 198px;
+.h2_for_learn{
+    text-align: center;
+    font-size: 20px;
+    color: #373b47;
+    padding-bottom: 20px;
+}
+.photos_for_stand{
+    width: 100%;
+}
+.section3{
+    background-color:#9dd9cb;
+}
+.photos_for_graphic{
+    width: 100%;
+}
+.h1_for_grap{
+    color: #1c5447;
+    text-align: center;
+}
+.h3_for_full{
+    text-align: center;
+    color: #4b8477;
+}
+.photos_for_tangerine{
+    width: 100%;
 }
 .section4{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    background-color: #6ac5fc;
 }
-.photos{
-    width: 400px;
-    height: 400px;
-    margin-top: 100px;
-}
-.footer{
-    background-color:#93D7C8;
-}
-.text_fot_footer{
-    font-size: 30px;
-    color: #2D7466;
+.h1_for_photografy{
+    color: #256c90;
     text-align: center;
-    padding-top: 60px;
 }
-.for_link{
-    padding-left: 100px;
+.h3_for_photografy{
+    text-align: center;
+    color: #1c6d92;
 }
-.old_link{
-    padding-left: 28%;
-    padding-top: 40px;
-    color: #457269;
+.h2_for_client{
+    text-align: center;
+    color: #afafaf;
+    font-size: 20px;
 }
-a{
-    text-decoration: none;
-    color: #457269;
+.for_emily{
+    border-radius: 360px;
+    margin-left: 30%;
+    margin-top: 30px;
 }
-.icons{
-    padding-left: 34%;
+.h3_for_emily{
+    text-align: center;
+    color: #bfc1c4;
 }
-.bibi-icons{
-    padding-left: 60px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-@media screen and (max-width:700px) {
-    body{
+@media screen and (min-width:500px) {
+    .old_text1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .innertext{
+        text-align: left;
+    }
+    .photos_for_egg{
+        width: 50%;
+        margin-left:20%;
+    }
+
+    .inner2{
+        flex-direction: row;
+        display: inline-flex;
+    }
+
+
+    .inner2_2{
+        display: inline-flex;
+        flex-direction: row;
+    }
+    .photos_for_stand{
+        width: 50%;
+        margin-right: 25%;
+    }
+    .oldtext2{
         display: flex;
         flex-direction: column;
     }
-    .section1{
-        background-color: chartreuse;
+
+    .old_section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .for_emily{
+        margin-left: 45%;
     }
 }
