@@ -2,6 +2,7 @@ body{
     border: 5px solid #D8DEE4;
     display: flex;
     flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .section1{
     background-color: #3CBEFE;
